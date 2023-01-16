@@ -1,0 +1,573 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.nevigation{
+
+    width: 1199px;
+    background-color: #FFFFFF;
+    margin: 10px 90px;
+}
+
+.flax_container{
+    display: flex;
+    text-align: center;
+    align-content: center;
+}
+
+.flax_container ul{
+    
+    display: flex;
+    margin: 20px -60px;
+    list-style-type: none;
+}
+.flax_container li{
+  
+    margin: 20px 20px;
+    
+    
+}
+.flax_container a{
+  
+    text-decoration: none;
+    font-family:  'Roboto';
+    
+    
+}
+.flax_container .logo{
+  
+    margin: 20px 180px;
+    width: 270px;
+    padding: 0 -60px;
+    font-style: bold;
+}
+
+.logo h4{
+
+    padding: 0 -60px;
+    font-size: 20px;
+
+}
+
+
+.nevigation_icon{
+    margin: 40px 0;
+    padding-left: 213px;
+    
+}
+
+
+.nevigation_icon i{
+    
+    height: 32px;
+    width: 43px;
+    border: 2px solid #E5E5E5;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    color: black;
+    padding-top: 10px;
+}
+ .header_content h1{
+
+font-family: Bai Jamjuree;
+font-size: 60px;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 0.02em;
+text-align: left;
+display: inline-block;
+}
+
+.header_content p{
+
+font-family:  'Roboto',  'sans-serif';
+font-size: 20px;
+letter-spacing: -0.01em;
+text-align: left;
+
+}
+
+.more_border{
+    border: 2px solid #FF8A1F;
+    height: 80px;
+    width: 136px;
+    border-radius: 55%;
+    display: inline-block;
+}
+
+
+  .square_icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .square_icon i{
+    
+    padding: 10px 10px;
+    font-size: 20px;
+    color: white;
+    background-color: #555;
+    margin-left: -156px;
+    margin-right: 10px;
+
+  }
+
+
+  .square p{
+    font-family:  'Roboto';
+    font-size: 20px;
+    /* margin: -38px 60px; */
+    padding-left: 10px;
+  }
+
+  .header_bg{
+        display: flex;
+  }
+
+  .second_group{
+
+    display: flex;
+  }
+
+  .header_bg{
+    margin-left: 52%;
+    margin-top: -25%;
+  }
+
+  .header_bg_1{
+
+    left: 669px;
+}
+  .header_bg_1 img{
+
+    height: 327px;
+    width: 327px;
+   
+} 
+
+
+.header_wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-card-img{
+   height: 330px;
+   width: 450px;
+  background-color: #51AFE5;
+  position: relative;
+}
+
+.header-card-img .v-card{
+  position: absolute;
+  /* width: 120%; */
+  top: -115px;
+  left: -50px;
+}
+.header_text-logo{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
+
+.header_card{
+  display: flex;
+  align-items: center;
+  margin-top: 70px;
+}
+.header-card-bg-img{
+
+  background-color: #FF8A1F;
+  height: 330px;
+  width: 200px;
+  
+  
+
+}
+
+.header-card-social-icon{
+
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 48px;
+  
+}
+.header-card-social-icon a{
+  padding: 20px;
+  margin: 5px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  color: #555;
+  
+}
+.header-card-social-icon a i{
+  font-size: 20px;
+  
+}
+
+.hot_deals{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:  100px 0;
+
+}
+
+.hot_deals_inner{
+  padding: 20px;
+}
+.hot_deals_inner img{
+  margin-left: 10px;
+}
+
+.hot_deals_inner_heading h4{
+  font-size: 35px;
+  font-weight: bold;
+  line-height: 26px;
+}
+
+.hot_deals_inner_heading p{
+  
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 139%;
+  text-align-last: left;
+ 
+}
+
+.hot_deals_inner_heading h3{
+
+  font-family: 'inner';
+  font-style: bold;
+  font-size: 26px;
+  line-height: 28px;
+}
+
+.hot_deals_inner_heading p{
+  font-family: 'Robot';
+  font-size: 17px;
+  line-height: 26px;
+}
+
+.about_us{
+  background-color: #CFEDFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about_us_text{
+
+  text-align: center;
+  padding: 100px;
+   
+
+}
+
+.about_us_img img{
+
+ position: absolute;
+  /* width: 70px;
+  height: 70px; */
+  left: 645px;
+  top: 150%;
+
+}
+
+.about_us_text h3{
+  font-family: 'Bai Jamjuree';
+  font-style: Medium;
+  font-size: 30px;
+  line-height: 101%;
+  color: #202020;
+}
+
+.about_us_text p{
+
+  font-family: 'Robot';
+  font-style: 'Regular';
+  font-size: 16px;
+  line-height: 139%;
+  width: 263px;
+  height: 52px;
+  color:  #5F5F64;
+
+}
+
+.testimonial{
+
+  width: 90%;
+  margin: auto;
+
+}
+
+.testimonial h1{
+
+
+font-weight: 700;
+font-size: 80px;
+font-family: 'Bai Jamjuree';
+font-style: normal;
+line-height: 80px;
+text-align: center;
+letter-spacing: 0.01em;
+
+}
+
+.testimonial p{
+  width: 650px;
+  margin: auto;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #767E7E;
+
+}
+
+.testimonial_line {
+  margin: 80px auto;
+}
+
+ 
+
+.feature{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  
+
+}
+
+.card{
+  /* height: 100%; */
+}
+
+
+
+.card-img img{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+
+.content{
+  left: 855px;
+  top: 69px;
+  }
+
+.ellipse_712{
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.content-inner-icon{
+    
+    height: 40PX;
+    width: 40PX;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #CFEDFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.feature-content-inner-text h4{
+
+  font-family: 'Bai Jamjuree';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: #222222;
+  text-transform: capitalize;
+}
+
+.feature-content-header h1{
+  
+  font-family: 'Bai Jamjuree';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 52px;
+  line-height: 62px;
+  letter-spacing: -0.01em;
+  color: #192430;
+
+}
+
+.feature-content-header p{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  color: #727272;
+}
+
+.newsletter{
+  width: 100%;
+  height: 500px;
+  background-color: #51AFE5;
+  margin: 80px auto;
+}
+
+.newsletter_wrapper{
+  width: 90%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.newsletter-inner-item-text{
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  letter-spacing: 0.01em;
+  color: #414449;
+}
+
+.newsletter-inner-item-img-1{
+  padding: 20px;
+}
+
+.newsletter_inner_items:first-child{
+  position: relative;
+  flex-basis: 25%;
+  margin: auto;
+}
+
+.newsletter_inner_items:nth-child(2){
+  flex-basis: 45%;
+  margin: auto;
+}
+.newsletter_inner_items:last-child{
+  flex-basis: 30%;
+
+}
+
+.newsletter-inner-item-bar{
+  position: absolute;
+  height: 150px;
+  width: 8px;
+  background: #718176;
+  top: 40px;
+  right: 10px;
+}
+
+.newsletter-item-heading{
+  font-family: 'Bai Jamjuree';
+  padding-left: 40px;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 70px;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  color: #000000;
+}
+
+.newsletter-inner-item-btn{
+  margin-left:  40px;
+  text-decoration: none;
+  padding: 20px 40px;
+  border: none;
+  background-color: #E15C19;;
+}
+
+.newsletter-inner-item-btn a{
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+  color: #ffffff;
+  
+}
+
+.footer-inner{
+  width: 90%;
+  margin: auto;
+}
+
+.footer-ineer-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-menu ul{
+  display: flex;
+  gap: 40px;
+
+}
+
+.footer-menu ul li {
+  list-style:  none;
+
+}
+
+.footer-menu ul li a{
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+letter-spacing: 0.01em;
+color: #404041;
+text-decoration: none;
+text-transform: uppercase;
+}
+
+.footer-user{
+  width: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-user .user a{
+  margin-right: 30px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  letter-spacing: 0.01em;
+  color: #404041;
+  text-transform: capitalize;
+}
+
+.footer-social-icon i{
+  margin-right: 20px;
+}
+
+.sub-footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 60px;
+}
+
+.footer-bar{
+  height: 3px;
+  width: 60%;
+  background: #565B58;
+
+}
+
+.sub-footer-inneer p{
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #1b1b1b59;
+}
